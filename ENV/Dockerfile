@@ -1,0 +1,4 @@
+FROM almalinux
+ENV AUTHOR="DEVIABHISHEK" \
+       DURATION="25HR" \
+       COURSE="DOCKER"
