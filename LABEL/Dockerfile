@@ -1,0 +1,4 @@
+FROM almalinux
+LABEL AUTHOR="DEVIABHISHEK" \
+          COURSE="DOCKER" \
+          DURATION="25 HRS"
