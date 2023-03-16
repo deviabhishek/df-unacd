@@ -1,9 +1,4 @@
-FROM nginx:latest
-
-RUN touch /var/www/html
-
-VOLUME /var/www/html
-
-COPY index.html /var/www/html/
-
-EXPOSE 80
+FROM ubuntu
+RUN mkdir /myvol
+RUN echo "hello world" > /myvol/greeting
+VOLUME /myvol
